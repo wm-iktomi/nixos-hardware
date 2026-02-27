@@ -43,7 +43,7 @@ in
         amdgpuBusId = "PCI:101:0:0";
         nvidiaBusId = "PCI:1:0:0";
       };
-
+      dynamicBoost.enable = true;
       powerManagement = {
         # This is unreliable on the 4060;  works a few times, then hangs:
          enable = true;
